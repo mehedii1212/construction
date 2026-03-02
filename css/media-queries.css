@@ -1,0 +1,55 @@
+/* =========================================
+   BuildPro - Responsive Media Queries
+   ========================================= */
+
+/* Large Desktop */
+@media (max-width: 1399px) {
+    .hero-title { font-size: 3rem; }
+}
+
+/* Desktop */
+@media (max-width: 1199px) {
+    .hero-title { font-size: 2.75rem; }
+    .section-title { font-size: 2.25rem; }
+}
+
+/* Tablet Landscape */
+@media (max-width: 991px) {
+    .hero-title { font-size: 2.5rem; }
+    .hero-image { display: none; }
+    .about-images { margin-bottom: 40px; }
+    .about-experience { right: bottom: 20px; }
+    20px; .process-card { margin-bottom: 30px; }
+    .counter-item h3 { font-size: 40px; }
+}
+
+/* Tablet Portrait */
+@media (max-width: 767px) {
+    .header-section .top-bar { display: none; }
+    .hero-title { font-size: 2rem; }
+    .hero-content { text-align: center; }
+    .hero-text { margin: 0 auto 25px; }
+    .hero-buttons { justify-content: center; }
+    .section-title { font-size: 2rem; }
+    .service-card { margin-bottom: 20px; }
+    .team-card { margin-bottom: 30px; }
+    .counter-item h3 { font-size: 36px; }
+    .footer-section .col-md-4, .footer-section .col-md-2, .footer-section .col-md-3 { margin-bottom: 30px; text-align: center; }
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+    .hero-title { font-size: 1.75rem; }
+    .hero-buttons .btn { padding: 10px 20px; font-size: 14px; }
+    .section-title { font-size: 1.75rem; }
+    .service-icon { width: 60px; height: 60px; }
+    .service-icon i { font-size: 24px; }
+    .counter-item h3 { font-size: 32px; }
+    .back-to-top { width: 40px; height: 40px; }
+}
+
+/* Extra Small */
+@media (max-width: 380px) {
+    .hero-title { font-size: 1.5rem; }
+    .section-title { font-size: 1.5rem; }
+}
